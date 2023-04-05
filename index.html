@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Celo Dapp</title>
+    <style>
+body {
+  background-color: #f8f8f8;
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.9.0/web3.min.js"></script>
+  </head>
+  <body>
+    <h1>My No Framework Celo Dapp</h1>
+    <div class="container">
+      <form id="greeting-form">
+        <label for="greeting-input">Enter a custom greeting:</label>
+        <input type="text" id="greeting-input" name="greeting">
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+      <h2 id="result"></h2>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
