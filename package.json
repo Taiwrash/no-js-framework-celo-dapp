@@ -1,0 +1,11 @@
+{
+  "name": "no-framework-dapp",
+  "version": "1.0.0",
+  "description": "celo sage tutorial on no framework dapp",
+  "main": "index.js",
+  "author": "Rasheed Mudasiru",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.9.0"
+  }
+}
